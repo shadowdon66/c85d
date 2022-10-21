@@ -2,7 +2,7 @@
 canvas = document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
 //Give specific height and width to the car image
-greencar_width = 75;
+car2_width = 75;
 greencar_height = 100;
 background_image = "parkingLot.jpg";
 greencar_image = "car2.png";
@@ -17,7 +17,7 @@ background_imgTag.src = background_image;
 
 greencar_imgTag = new Image();
 greencar_imgTag.onload = uploadgreencar;
-greencar_imgtag.src = greencar_image;
+greencar_imgtag.src = car2.png;
 	//upload car, and background images on the canvas.
 }
 
